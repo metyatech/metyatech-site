@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+
+npm run verify
+npx compose-agentsmd --compose
+git add AGENTS.md
