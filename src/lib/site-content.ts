@@ -1,6 +1,6 @@
 export const siteUrl = "https://metyatech.com";
 export const appUrl = "https://meal-autopilot.vercel.app";
-export const supportEmail = "info@metyatech.com";
+export const supportEmail = "support@metyatech.com";
 
 export const company = {
   name: "metyatech",
