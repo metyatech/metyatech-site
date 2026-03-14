@@ -172,7 +172,12 @@ export default function HomePage() {
               </div>
             </article>
             <article className="support-card">
-              <h3>Important links</h3>
+              <h3>Operator and links</h3>
+              <p>
+                Operator: {company.operator}
+                <br />
+                Region: {company.location}
+              </p>
               <ul className="stack-list">
                 <li>
                   <Link href="/meal-autopilot/support">

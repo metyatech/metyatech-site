@@ -13,5 +13,6 @@ describe("HomePage", () => {
       screen.getByRole("link", { name: "View Meal Autopilot" }),
     ).toHaveAttribute("href", "/meal-autopilot");
     expect(screen.getAllByText("¥680 / month")).toHaveLength(2);
+    expect(screen.getByText(/Operator: metyatech/i)).toBeInTheDocument();
   });
 });

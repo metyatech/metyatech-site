@@ -13,5 +13,11 @@ describe("MealAutopilotPage", () => {
     expect(
       screen.getByRole("link", { name: "Contact support" }),
     ).toHaveAttribute("href", "/meal-autopilot/support");
+    expect(screen.getByText("Billing and cancellation")).toBeInTheDocument();
+    expect(
+      screen.getByText(
+        /Customers are charged immediately at checkout for a monthly recurring subscription\./,
+      ),
+    ).toBeInTheDocument();
   });
 });

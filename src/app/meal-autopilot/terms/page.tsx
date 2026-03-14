@@ -51,8 +51,12 @@ export default function MealAutopilotTermsPage() {
             <ul className="stack-list">
               <li>Access may require an active paid subscription.</li>
               <li>
+                Customers are charged immediately at checkout for a monthly
+                recurring subscription.
+              </li>
+              <li>
                 Recurring charges are processed through third-party payment
-                providers.
+                providers until the subscription is cancelled.
               </li>
               <li>
                 Users are responsible for keeping payment details current.
@@ -63,7 +67,27 @@ export default function MealAutopilotTermsPage() {
 
         <section className="page-section">
           <article className="legal-card">
-            <h2>3. Acceptable use</h2>
+            <h2>3. Cancellation and refunds</h2>
+            <ul className="stack-list">
+              <li>
+                Customers may request cancellation through the billing portal or
+                by contacting support.
+              </li>
+              <li>
+                Cancellation stops future recurring charges but does not
+                automatically create a refund for past charges.
+              </li>
+              <li>
+                Refund requests are reviewed individually and may be refused
+                unless required by law.
+              </li>
+            </ul>
+          </article>
+        </section>
+
+        <section className="page-section">
+          <article className="legal-card">
+            <h2>4. Acceptable use</h2>
             <ul className="stack-list">
               <li>
                 Do not misuse the service or attempt to access data that is not
@@ -83,7 +107,7 @@ export default function MealAutopilotTermsPage() {
 
         <section className="page-section">
           <article className="legal-card">
-            <h2>4. Contact</h2>
+            <h2>5. Contact</h2>
             <p>
               Questions about these terms can be sent to{" "}
               <a href={`mailto:${supportEmail}`}>{supportEmail}</a>.

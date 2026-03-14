@@ -103,6 +103,39 @@ export default function MealAutopilotPage() {
             </article>
           </div>
         </section>
+
+        <section className="page-section">
+          <div className="detail-grid">
+            <article className="product-card">
+              <h3>Billing and cancellation</h3>
+              <ul className="stack-list">
+                {mealAutopilot.billing.map((item) => (
+                  <li key={item}>{item}</li>
+                ))}
+              </ul>
+            </article>
+
+            <aside className="pricing-card">
+              <h3>Support and policy</h3>
+              <ul className="stack-list">
+                {mealAutopilot.policies.map((item) => (
+                  <li key={item}>{item}</li>
+                ))}
+              </ul>
+              <div className="cta-row" style={{ marginTop: "18px" }}>
+                <Link className="button-secondary" href="/meal-autopilot/terms">
+                  Terms
+                </Link>
+                <Link
+                  className="button-secondary"
+                  href="/meal-autopilot/privacy"
+                >
+                  Privacy
+                </Link>
+              </div>
+            </aside>
+          </div>
+        </section>
       </main>
     </div>
   );

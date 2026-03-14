@@ -58,6 +58,24 @@ export default function MealAutopilotSupportPage() {
               </div>
             </article>
             <article className="support-card">
+              <h3>Billing and cancellation</h3>
+              <ul className="stack-list">
+                {mealAutopilot.billing.map((item) => (
+                  <li key={item}>{item}</li>
+                ))}
+              </ul>
+              <p>
+                Billing questions, refund requests, and cancellation issues
+                should be sent to{" "}
+                <a href={`mailto:${supportEmail}`}>{supportEmail}</a>.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section className="page-section">
+          <div className="two-column">
+            <article className="support-card">
               <h3>What to include in your message</h3>
               <ul className="stack-list">
                 <li>Your account email address</li>
@@ -70,6 +88,18 @@ export default function MealAutopilotSupportPage() {
                   problem
                 </li>
               </ul>
+            </article>
+            <article className="support-card">
+              <h3>Operator</h3>
+              <p>
+                Service operator: metyatech
+                <br />
+                Operating region: Japan
+              </p>
+              <p>
+                Support channel:{" "}
+                <a href={`mailto:${supportEmail}`}>{supportEmail}</a>
+              </p>
             </article>
           </div>
         </section>
