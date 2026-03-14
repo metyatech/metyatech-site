@@ -15,6 +15,7 @@ Official marketing and policy site for `metyatech.com`, including the public pro
 - `/meal-autopilot/support` support page
 - `/meal-autopilot/privacy` privacy policy
 - `/meal-autopilot/terms` terms of service
+- `/meal-autopilot/legal-notice` specified commercial transactions notice
 
 ## Setup
 

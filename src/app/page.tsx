@@ -191,6 +191,11 @@ export default function HomePage() {
                   <Link href="/meal-autopilot/terms">Terms of service</Link>
                 </li>
                 <li>
+                  <Link href="/meal-autopilot/legal-notice">
+                    Specified Commercial Transactions Act notice
+                  </Link>
+                </li>
+                <li>
                   <a href={siteUrl}>{siteUrl}</a>
                 </li>
               </ul>

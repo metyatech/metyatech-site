@@ -21,6 +21,7 @@ export default function MealAutopilotPage() {
             <Link href="/meal-autopilot/support">Support</Link>
             <Link href="/meal-autopilot/privacy">Privacy</Link>
             <Link href="/meal-autopilot/terms">Terms</Link>
+            <Link href="/meal-autopilot/legal-notice">Legal</Link>
           </nav>
         </div>
       </header>
@@ -131,6 +132,12 @@ export default function MealAutopilotPage() {
                   href="/meal-autopilot/privacy"
                 >
                   Privacy
+                </Link>
+                <Link
+                  className="button-secondary"
+                  href="/meal-autopilot/legal-notice"
+                >
+                  Legal notice
                 </Link>
               </div>
             </aside>

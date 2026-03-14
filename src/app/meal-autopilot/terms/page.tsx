@@ -20,6 +20,7 @@ export default function MealAutopilotTermsPage() {
             <Link href="/meal-autopilot">Product</Link>
             <Link href="/meal-autopilot/support">Support</Link>
             <Link href="/meal-autopilot/privacy">Privacy</Link>
+            <Link href="/meal-autopilot/legal-notice">Legal</Link>
           </nav>
         </div>
       </header>

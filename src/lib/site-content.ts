@@ -1,6 +1,8 @@
 export const siteUrl = "https://metyatech.com";
 export const appUrl = "https://meal-autopilot.vercel.app";
 export const supportEmail = "support@metyatech.com";
+export const legalNoticeEmail = "support@metyatech.com";
+export const legalNoticePhone = "+81-90-9123-8927";
 
 export const company = {
   name: "metyatech",
@@ -32,6 +34,22 @@ export const mealAutopilot = {
     "Service cancellations stop future recurring charges.",
     "Refund requests are reviewed individually and may be refused unless required by law.",
   ],
+  legalNotice: {
+    operator: "metyatech",
+    representative: "Kota Yamamoto",
+    price: "¥680 per month",
+    paymentTiming:
+      "Charged immediately at checkout, then billed monthly until cancelled.",
+    deliveryTiming:
+      "Access is provided online after account setup and successful payment confirmation.",
+    paymentMethods: "Card payments processed via Stripe Checkout.",
+    cancellation:
+      "Customers can request cancellation through the billing portal or by contacting support.",
+    refunds:
+      "Refund requests are reviewed individually and may be refused unless required by law.",
+    addressDisclosure:
+      "Our business address and phone number are disclosed without delay upon request.",
+  },
   support: [
     "Product support is handled by email.",
     "Billing support requests should include the receipt email or account email.",
