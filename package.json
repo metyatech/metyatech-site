@@ -22,10 +22,11 @@
   "devDependencies": {
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.0",
-    "@vitejs/plugin-react": "^5.1.0",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@vitejs/plugin-react": "^5.1.0",
+    "axe-core": "^4.11.1",
     "compose-agentsmd": "^3.5.1",
     "eslint": "^9",
     "eslint-config-next": "16.1.6",
@@ -34,6 +35,7 @@
     "prettier": "^3.8.1",
     "typescript": "^5",
     "vite-tsconfig-paths": "^5.1.4",
-    "vitest": "^4.1.0"
+    "vitest": "^4.1.0",
+    "vitest-axe": "^0.1.0"
   }
 }

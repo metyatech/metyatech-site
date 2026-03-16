@@ -52,7 +52,7 @@ export default function MealAutopilotPage() {
         <section className="page-section">
           <div className="detail-grid">
             <article className="product-card">
-              <h3>What the service does</h3>
+              <h2>What the service does</h2>
               <p>{mealAutopilot.summary}</p>
               <ul className="stack-list">
                 {mealAutopilot.features.map((feature) => (
@@ -61,8 +61,8 @@ export default function MealAutopilotPage() {
               </ul>
             </article>
 
-            <aside className="pricing-card">
-              <h3>Plan</h3>
+            <div className="pricing-card">
+              <h2>Plan</h2>
               <div className="product-card__price">{mealAutopilot.price}</div>
               <p>
                 Subscription access to the web application, including meal
@@ -74,7 +74,7 @@ export default function MealAutopilotPage() {
                   Ask a question
                 </a>
               </div>
-            </aside>
+            </div>
           </div>
         </section>
 
@@ -108,7 +108,7 @@ export default function MealAutopilotPage() {
         <section className="page-section">
           <div className="detail-grid">
             <article className="product-card">
-              <h3>Billing and cancellation</h3>
+              <h2>Billing and cancellation</h2>
               <ul className="stack-list">
                 {mealAutopilot.billing.map((item) => (
                   <li key={item}>{item}</li>
@@ -116,8 +116,8 @@ export default function MealAutopilotPage() {
               </ul>
             </article>
 
-            <aside className="pricing-card">
-              <h3>Support and policy</h3>
+            <div className="pricing-card">
+              <h2>Support and policy</h2>
               <ul className="stack-list">
                 {mealAutopilot.policies.map((item) => (
                   <li key={item}>{item}</li>
@@ -140,7 +140,7 @@ export default function MealAutopilotPage() {
                   Legal notice
                 </Link>
               </div>
-            </aside>
+            </div>
           </div>
         </section>
       </main>
