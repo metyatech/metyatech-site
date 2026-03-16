@@ -137,7 +137,7 @@ export default function HomePage() {
                 </a>
               </div>
             </article>
-            <aside className="pricing-card">
+            <div className="pricing-card">
               <h3>Commercial summary</h3>
               <p>
                 Meal Autopilot is sold as subscription software for individual
@@ -149,7 +149,7 @@ export default function HomePage() {
                 The service is provided online. Product information, policies,
                 and support links are available on this site.
               </p>
-            </aside>
+            </div>
           </div>
         </section>
 

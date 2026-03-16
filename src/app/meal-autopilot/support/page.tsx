@@ -38,7 +38,7 @@ export default function MealAutopilotSupportPage() {
         <section className="page-section">
           <div className="two-column">
             <article className="support-card">
-              <h3>Contact</h3>
+              <h2>Contact</h2>
               <p>
                 Email support is the primary support channel for this product.
                 Please include the account email you used and enough detail to
@@ -59,7 +59,7 @@ export default function MealAutopilotSupportPage() {
               </div>
             </article>
             <article className="support-card">
-              <h3>Billing and cancellation</h3>
+              <h2>Billing and cancellation</h2>
               <ul className="stack-list">
                 {mealAutopilot.billing.map((item) => (
                   <li key={item}>{item}</li>
@@ -77,7 +77,7 @@ export default function MealAutopilotSupportPage() {
         <section className="page-section">
           <div className="two-column">
             <article className="support-card">
-              <h3>What to include in your message</h3>
+              <h2>What to include in your message</h2>
               <ul className="stack-list">
                 <li>Your account email address</li>
                 <li>The product name: Meal Autopilot</li>
@@ -91,7 +91,7 @@ export default function MealAutopilotSupportPage() {
               </ul>
             </article>
             <article className="support-card">
-              <h3>Operator</h3>
+              <h2>Operator</h2>
               <p>
                 Service operator: metyatech
                 <br />
@@ -109,7 +109,7 @@ export default function MealAutopilotSupportPage() {
           <div className="three-column">
             {mealAutopilot.support.map((item) => (
               <article className="info-card" key={item}>
-                <h3>Support note</h3>
+                <h2>Support note</h2>
                 <p>{item}</p>
               </article>
             ))}
