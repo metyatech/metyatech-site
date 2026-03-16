@@ -13,6 +13,14 @@ describe("MealAutopilotLegalNoticePage", () => {
       }),
     ).toBeInTheDocument();
     expect(screen.getByText("Business name: metyatech")).toBeInTheDocument();
+    expect(
+      screen.getByText("Contact phone: 050-5343-7214"),
+    ).toBeInTheDocument();
+    expect(
+      screen.getByText(
+        "Business address: 〒152-0035 東京都目黒区自由が丘二丁目16番12号 RJ3",
+      ),
+    ).toBeInTheDocument();
     expect(screen.getByText("Price: ¥680 per month")).toBeInTheDocument();
   });
 });

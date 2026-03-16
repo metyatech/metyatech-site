@@ -1,5 +1,11 @@
 import Link from "next/link";
-import { appUrl, mealAutopilot, supportEmail } from "@/lib/site-content";
+import {
+  appUrl,
+  legalNoticeAddress,
+  legalNoticePhone,
+  mealAutopilot,
+  supportEmail,
+} from "@/lib/site-content";
 
 export const metadata = {
   title: "Meal Autopilot Support",
@@ -100,6 +106,10 @@ export default function MealAutopilotSupportPage() {
               <p>
                 Support channel:{" "}
                 <a href={`mailto:${supportEmail}`}>{supportEmail}</a>
+                <br />
+                Support phone: {legalNoticePhone}
+                <br />
+                Address: {legalNoticeAddress}
               </p>
             </article>
           </div>

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import {
+  legalNoticeAddress,
   legalNoticeEmail,
   legalNoticePhone,
   mealAutopilot,
@@ -52,7 +53,7 @@ export default function MealAutopilotLegalNoticePage() {
                 <a href={`mailto:${legalNoticeEmail}`}>{legalNoticeEmail}</a>
               </li>
               <li>Contact phone: {legalNoticePhone}</li>
-              <li>{notice.addressDisclosure}</li>
+              <li>Business address: {legalNoticeAddress}</li>
             </ul>
           </article>
         </section>

@@ -2,14 +2,16 @@ export const siteUrl = "https://metyatech.com";
 export const appUrl = "https://meal-autopilot.vercel.app";
 export const supportEmail = "support@metyatech.com";
 export const legalNoticeEmail = "support@metyatech.com";
-export const legalNoticePhone = "+81-90-9123-8927";
+export const legalNoticePhone = "050-5343-7214";
+export const legalNoticeAddress =
+  "〒152-0035 東京都目黒区自由が丘二丁目16番12号 RJ3";
 
 export const company = {
   name: "metyatech",
   summary:
     "metyatech builds practical software products with a focus on clear UX, reliable automation, and small tools that solve concrete day-to-day problems.",
   operator: "metyatech",
-  location: "Yokohama, Kanagawa, Japan",
+  location: "Meguro-ku, Tokyo, Japan",
 };
 
 export const mealAutopilot = {
@@ -47,8 +49,6 @@ export const mealAutopilot = {
       "Customers can request cancellation through the billing portal or by contacting support.",
     refunds:
       "Refund requests are reviewed individually and may be refused unless required by law.",
-    addressDisclosure:
-      "Our business address and phone number are disclosed without delay upon request.",
   },
   support: [
     "Product support is handled by email.",
