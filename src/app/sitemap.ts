@@ -8,6 +8,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/meal-autopilot/support",
     "/meal-autopilot/privacy",
     "/meal-autopilot/terms",
+    "/meal-autopilot/legal-notice",
   ].map((path) => ({
     url: `${siteUrl}${path}`,
     lastModified: new Date(),

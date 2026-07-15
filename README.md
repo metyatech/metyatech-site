@@ -32,6 +32,14 @@ npm run dev
 
 Open `http://localhost:3000`.
 
+### Development commands
+
+- `npm run build`: Build for production
+- `npm run test`: Run unit tests
+- `npm run lint`: Run ESLint
+- `npm run format`: Fix code formatting
+- `npm run typecheck`: Run TypeScript type check
+
 ## Verification
 
 ```bash
